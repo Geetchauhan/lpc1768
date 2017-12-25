@@ -1,5 +1,4 @@
-// this is a comment
-
+// this is the comment after adding the branch
 #include <lpc17xx.h>   
 
 void delay_ms(unsigned int ms)
