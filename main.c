@@ -13,7 +13,6 @@ void delay_ms(unsigned int ms)
 /* start the main program */
 int main() 
 {
-    // initialize the system
     SystemInit();                    //Clock and PLL configuration 
     LPC_PINCON->PINSEL4 = 0x000000;  //Configure the PORT2 Pins as GPIO;
     LPC_GPIO2->FIODIR = 0xffffffff;  //Configure the PORT2 pins as OUTPUT;
