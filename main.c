@@ -1,3 +1,5 @@
+// this is a comment
+
 #include <lpc17xx.h>   
 
 void delay_ms(unsigned int ms)
